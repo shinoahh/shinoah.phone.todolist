@@ -1,0 +1,101 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+.body{
+  background-color:black;
+  color:white;
+  padding-bottom:90vh;
+}
+
+.title{
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.container{
+  font-size:20px;
+  padding:20px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.input{
+  padding:10px 10px;
+  background-color:white;
+  border: none;
+  border-radius:100px;
+  transition: .4s;
+}
+
+.run{
+  padding:10px 15px;
+  background-color:white;
+  border:none;
+  font-weight: bold;
+  border-radius: 100px;
+  transition: .4s;
+}
+
+.container2{
+  margin-top:2vh;
+  width:95%;
+  display:flex;
+  justify-content:center;
+  justify-items: center;
+  align-items: center;
+}
+
+.listinput{
+  color:black;
+  background-color:white;
+  font-size:2.2vh;
+  padding:10px 20px;
+  border:none;
+  width:50vh;
+  border-radius:100px;
+  text-align: start;
+  margin:2px;
+  transition: 1s;
+}
+
+.done-button{
+  padding:1px 2vh;
+  background-color:white;
+  border:solid .1px black;
+  border-radius:20px;
+  color:black;
+  font-weight: bold;
+  margin:2px;
+  height:5vh;
+  width:12vh;
+  
+}
+
+.delete-btn{
+  padding:1px 2vh;
+  background-color: white;
+  border:solid .1px black;
+  width: 12vh;
+  border-radius:20px;
+  color:black;
+  height:5vh;
+  font-weight: bold;
+  margin:2px;
+  
+}
+
+.lightmode{
+  font-size:10px;
+  background-color:white;
+  border:solid black .5px;
+  padding:1vh 20px;
+  margin-left:3vh;
+  border-radius:50vh;
+  font-weight:bold;
+  width:60px;
+}
